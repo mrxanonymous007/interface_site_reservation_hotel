@@ -1,0 +1,166 @@
+/* GÉNÉRALES */
+* {
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.mtb-30 {
+    margin: 30px 0;
+}
+
+.mtb-20 {
+    margin: 20px 0;
+}
+
+/* Version ordinateur */
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.flex-logo {
+    flex: 2;
+}
+
+.flex-logo img {
+    height: 50px;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    text-align: end;
+}
+
+header nav ul li { 
+    display: inline;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+header nav ul li:hover {
+    border-top: 3px solid #0065FC;
+    padding-top: 24px;
+}
+
+
+
+
+
+header, main {
+    margin: 0 30px;
+}
+
+
+
+
+
+/* MAIN */
+
+/* section - "trouvez votre hébergement" */
+
+    /* search bar */
+
+.border-field {
+    border: 1px solid #F2F2F2;
+    display: inline-flex;
+    border-radius: 11px;
+    margin: 10px 0;
+}
+
+.position-icon {
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.text-field {
+    border: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.text-field::placeholder {
+    font-weight: bold;
+}
+
+.btn-search {
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+
+
+    /* filter */
+
+.block-filter {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #F2F2F2;
+    padding: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+.icon-color {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: -15px;
+    margin-right: 10px;
+}
+
+
+    /* info */
+
+.i-size {
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 20px;
+    padding: 5px 8px 5px 9px;
+    font-size: 12px;
+}
+
+.inline {
+    display: inline;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/* section - hébergements */
+
