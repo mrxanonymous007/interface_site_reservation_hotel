@@ -3,7 +3,7 @@
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
     text-decoration: none;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 a {
@@ -63,6 +63,8 @@ a {
 }
 
 
+
+
 /* Version ordinateur */
 
 /* HEADER */
@@ -107,7 +109,9 @@ header, main {
     margin: 0 20px;
 }
 
-
+body {
+    min-height: 100vh;
+}
 
 
 
@@ -550,4 +554,31 @@ header, main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #F2F2F2;
+    padding: 20px 40px;
+    margin: 0 -10px -10px -10px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+footer ul {
+    padding: 0; 
+}
+
+.fontsize-footer {
+    font-size: 13px;
+    line-height: 30px;
 }
