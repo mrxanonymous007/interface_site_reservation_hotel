@@ -22,12 +22,20 @@ a {
     margin-right: 30px;
 }
 
+.mr-15 {
+    margin-right: 15px;
+}
+
 .m-20 {
     margin: 20px;
 }
 
 .ml-10 {
     margin-left: 10px;
+}
+
+.mt-5 {
+    margin-top: -4px;
 }
 
 .mt-10 {
@@ -38,13 +46,22 @@ a {
     margin-top: -15px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .mb-25 {
     margin-bottom: 25px;
 }
 
-.mb-30 {
+.mb-20 {
     margin-bottom: 20px;
 }
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 
 /* Version ordinateur */
 
@@ -145,14 +162,14 @@ header, main {
 }
 
 
-button {
+.button {
     background-color: transparent;
     border: 2px solid #F2F2F2;
     border-radius: 20px;
     font-weight: bold;
 }
 
-button:hover {
+.button:hover {
     background-color: #DEEBFF;
     color: #0065FC;
 }
@@ -200,24 +217,169 @@ button:hover {
 
 .block {
     display: flex;
-    height: 580px;
+    height: 600px;
 }
 
     /* bloc hébergements */
 
-.hebergements {
-    border: 1px solid red;
+
+.accomodations {
     background-color: #F2F2F2;
     border-radius: 15px;
     margin-right: 20px;
     padding: 20px;
     flex: 2;
+   
 }
+
+.row-1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.block-1 {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px;
+    box-shadow: 0px 0px 30px -30px #000000;
+}
+
+.block-1:hover {  
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+}
+
+.img1-accomodations {
+    background-image: url(/img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img2-accomodations {
+    background-image: url(/img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img3-accomodations {
+    background-image: url(/img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img4-accomodations {
+    background-image: url(/img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img5-accomodations {
+    background-image: url(/img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img6-accomodations {
+    background-image: url(/img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.accomodations-info {
+    margin-left: 5px;
+}
+
+.border-title {
+    margin: 4px 4px 4px 0;
+}
+
+
+.btn-showmore {
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn-showmore:hover {
+    color: #0065FC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* bloc les plus populaires */
 
-.populaires {
-    border: 1px solid green;
+
+/* cartes */
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px;
+    box-shadow: 0px 0px 30px -30px #000000;
+}
+
+.card:hover {  
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+.trends {
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 20px;
@@ -229,22 +391,6 @@ button:hover {
     align-items: center;
     justify-content: space-between;
 }
-
-
-    /* cartes */
-
-.card {
-    background-color: white;
-    border-radius: 15px;
-    padding: 3px;
-}
-
-.card:hover {
-    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
-    
-}
-
-
 
 .block2 {
     display: flex;
@@ -290,7 +436,7 @@ button:hover {
     height: 120px;
 }
 
-.p-trendsize {
+.p-size {
     font-size: 13px;
 }
 
@@ -305,3 +451,13 @@ button:hover {
 .star-gray {
     color: #f2f2f2;
 }
+
+
+
+
+
+
+
+
+
+
