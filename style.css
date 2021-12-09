@@ -323,21 +323,13 @@ header, main {
     cursor: pointer;
     border: none;
     font-weight: bold;
+    font-size: 15px;
     background-color: transparent;
 }
 
 .btn-showmore:hover {
     color: #0065FC;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -460,4 +452,102 @@ header, main {
 
 
 
+/* Activités à Marseille */
 
+
+.activity-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-width-activity {
+    width: 23%;
+}
+
+.l-card-activity {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+}
+
+.l-card-activity:hover {
+    box-shadow: 0px 0px 40px -30px #000000;
+}
+
+.img1-activity {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px 15px 0 0;
+    background-image: url(/img/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4-activity {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px 15px 0 0;
+    background-image: url(/img/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-activity {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+}
+
+
+.s-card-activity {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+}
+
+.s-card-activity:hover {
+    box-shadow: 0px 0px 40px -30px #000000;
+}
+
+.img2-activity {
+    border-radius: 15px 15px 0 0;
+    height: 150px;
+    background-image: url(/img/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3-activity {
+    border-radius: 15px 15px 0 0;
+    margin-top: 50px;
+    height: 100px;
+
+    background-image: url(/img/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img5-activity {
+    border-radius: 15px 15px 0 0;
+    height: 125px;
+    background-image: url(/img/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img6-activity {
+    border-radius: 15px 15px 0 0;
+    margin-top: 50px;
+    height: 125px;
+
+    background-image: url(/img/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
