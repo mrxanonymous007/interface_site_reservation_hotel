@@ -3,7 +3,11 @@
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
     text-decoration: none;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
 }
 
 a {
@@ -68,6 +72,7 @@ a {
 /* Version ordinateur */
 
 /* HEADER */
+
 
 header {
     display: flex;
@@ -221,7 +226,7 @@ body {
 
 .block {
     display: flex;
-    height: 600px;
+    min-height: 600px;
 }
 
     /* bloc hébergements */
@@ -564,7 +569,7 @@ body {
 
 footer {
     background-color: #F2F2F2;
-    padding: 20px 40px;
+    padding: 20px 0 20px 40px;
     margin: 0 -10px -10px -10px;
 }
 
@@ -582,3 +587,52 @@ footer ul {
     font-size: 13px;
     line-height: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    header {
+        display: block;
+        border-bottom: 2px solid #f2f2f2;
+        margin: 0 -9px;
+    }
+
+    .flex-logo {
+        flex: 1;
+        text-align: center;
+    }
+
+    header nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    header nav ul li:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 15px;
+    }
+
+    .block {
+        flex-direction: column-reverse;
+    }
+
+    .accomodations {
+        margin-right: 0;
+    }
+
+    .trends {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* @media (max-width: 768px) {
+} */
