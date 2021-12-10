@@ -160,7 +160,9 @@ body {
     cursor: pointer;
 }
 
-
+.icon-search {
+    display: none;
+}
 
     /* filter */
 
@@ -598,10 +600,30 @@ footer ul {
 
 
 @media (min-width: 769px) and (max-width: 991px) {
-    header {
+
+    .flex-logo {
+        flex: 1;
+    }
+
+    .block {
+        flex-direction: column-reverse;
+    }
+
+    .trends {
+        margin-bottom: 20px;
+    }
+
+    .accomodations {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* header {
         display: block;
         border-bottom: 2px solid #f2f2f2;
-        margin: 0 -9px;
+        margin: 0 -10px;
     }
 
     .flex-logo {
@@ -620,19 +642,14 @@ footer ul {
         padding-bottom: 15px;
     }
 
-    .block {
-        flex-direction: column-reverse;
+    .btn-search-none {
+        display: none;
     }
 
-    .accomodations {
-        margin-right: 0;
-    }
-
-    .trends {
-        margin-bottom: 20px;
-    }
-
+    .fontawesome-search {
+        background-color: #0065FC;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    } */
 }
-
-/* @media (max-width: 768px) {
-} */
