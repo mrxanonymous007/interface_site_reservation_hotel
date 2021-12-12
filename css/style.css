@@ -104,11 +104,8 @@ header nav ul li {
 
 header nav ul li:hover {
     border-top: 3px solid #0065FC;
-    padding-top: 24px;
+    padding-top: 25px;
 }
-
-
-
 
 
 header, main {
