@@ -132,7 +132,7 @@ body {
     border: 1px solid #F2F2F2;
     display: inline-flex;
     border-radius: 11px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .position-icon {
@@ -162,6 +162,9 @@ body {
     cursor: pointer;
 }
 
+.btn-search-mobile {
+    display: none;
+}
 
     /* filter */
 
@@ -620,21 +623,12 @@ footer ul {
         text-align: center;
         border-bottom: 2px solid #F2F2F2;
         margin: auto;
-        
     }
 
     header nav ul {
         text-align: center;
         padding-left: 0;
         padding-right: 0;
-    }
-
-    .am-size {
-        font-size: 14px;
-    }
-
-    header nav ul li {
-        padding: 0 30px;
     }
 
     header nav ul li:hover {
@@ -651,9 +645,36 @@ footer ul {
         margin: 0 20px;
     }
 
-    /* form {
-        
-    } */
+    .border-field {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .position-icon {
+        padding: 15px;
+    }
+
+    .btn-search {
+        display: none;
+    }
+
+    .btn-search-mobile {
+        display: initial;
+        border: none;
+        color: white;
+        padding: 3px 15px;
+        background-color: #0065FC;
+        border-radius: 10px;
+        font-size: 30px;
+        margin: 0;
+        cursor: pointer;
+        transform: scaleX(-1);
+    }
+
+    .text-field {
+        width: 100%;
+        padding: 15px;
+    }
 
     main {
         margin: 0;
@@ -664,11 +685,6 @@ footer ul {
         flex-direction: column-reverse;
     }
 
-
-
-    /* .trends {
-        margin-bottom: 20px;
-    } */
 
     .accomodations {
         margin-right: 0;
